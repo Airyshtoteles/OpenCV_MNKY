@@ -1,0 +1,12 @@
+# OpenCV MNKY - Required Dependencies
+
+# Core Dependencies
+opencv-contrib-python==4.12.0.88
+mediapipe==0.10.14
+numpy>=1.26.0,<2.2.0
+
+# TensorFlow (required by MediaPipe)
+tensorflow==2.19.0
+
+# Optional but recommended for better performance
+# protobuf>=3.20.0
