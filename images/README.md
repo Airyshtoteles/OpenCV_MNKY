@@ -34,3 +34,4 @@ This folder contains images used in the project documentation.
 - Use GIF for animations (max 10MB)
 - Compress images before uploading
 - Use descriptive filenames
+a
