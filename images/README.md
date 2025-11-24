@@ -1,37 +1,32 @@
-# Images for README
+# 📸 OpenCV AI Meme & Gesture Detector
 
-This folder contains images used in the project documentation.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Face%20%26%20Hand-orange)
 
-## Screenshots Needed:
+Aplikasi Computer Vision real-time yang menggunakan **OpenCV** dan **MediaPipe** untuk mendeteksi wajah, tangan, dan gestur spesifik (seperti gestur "Shh" 🤫). Program ini juga menampilkan overlay gambar (meme) berdasarkan interaksi pengguna.
 
-1. **demo.gif** - Animated demonstration of the program
-2. **screenshot-main.png** - Main interface showing split screen
-3. **gesture-face.png** - Face only detection
-4. **gesture-hand.png** - Face + hand detection  
-5. **gesture-shh.png** - Finger near mouth detection
+![Demo Preview](images/demo.gif)
+*(Pastikan kamu sudah upload file demo.gif ke folder images)*
 
-## How to Add Screenshots:
+## ✨ Fitur Utama
 
-1. Run the program: `python meme.py`
-2. Capture screenshots or record GIF
-3. Save them in this `images/` folder
-4. Update README.md to reference them:
+- **Real-time Face Detection**: Mendeteksi wajah pengguna secara akurat.
+- **Hand Tracking**: Melacak pergerakan tangan dan jari (Landmarks).
+- **Gesture Recognition**:
+  - Mendeteksi gestur jari telunjuk di dekat mulut (Shh/Diam).
+  - Logika deteksi interaktif antara posisi tangan dan wajah.
+- **Meme Overlay**: Menampilkan aset gambar (`mon1.jpg`, `jaja.jpg`, dll) ke layar.
 
-```markdown
-![Demo](images/demo.gif)
-```
+## 📂 Struktur Folder
 
-## Recommended Tools:
-
-- **Windows**: Snipping Tool, ShareX
-- **macOS**: Cmd+Shift+4, Kap (for GIF)
-- **Linux**: GNOME Screenshot, Peek (for GIF)
-- **Cross-platform**: OBS Studio, ScreenToGif
-
-## Image Guidelines:
-
-- Use PNG for screenshots (lossless quality)
-- Use GIF for animations (max 10MB)
-- Compress images before uploading
-- Use descriptive filenames
-a
+```text
+.
+├── images/             # Folder aset gambar dokumentasi
+│   ├── demo.gif
+│   ├── screenshot-main.png
+│   └── ...
+├── meme.py             # Main source code (Logic OpenCV & MediaPipe)
+├── requirements.txt    # Daftar library yang dibutuhkan
+├── mon1.jpg             # Aset overlay
+└── README.md           # Dokumentasi proyek ini
